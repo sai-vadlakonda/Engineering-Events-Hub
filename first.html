@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Events Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="sticky-nav">
+        <div class="sticky-left">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#events" class="nav-link">Events</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#about" class="nav-link">About</a>
+        </div>
+
+        <div class="sticky-right">
+            <i class="fa-regular fa-bell dark-off" style="display:none"></i>
+            <i class="fa-regular fa-moon dark-off" style="display: none;"></i>
+            <i class="fa-regular fa-user dark-off" style="display: none;"></i>
+            <i class="fa-solid fa-bell dark-on"></i>
+            <i class="fa-solid fa-moon dark-on"></i>
+            <i class="fa-solid fa-user dark-on"></i>
+        </div>
+    </div>
+
+    <div id="home" class="home">
+        <div class="head-matter">
+            <p class="head-title">
+                Discover Amazing College Events
+            </p>
+            <p class="head-info">
+                Join, organize, and manage college events all in one place. Experience seamless event registration and
+                networking opportunities.
+            </p>
+            <button class="head-but1"><a href="#events">Browse Events</a></button>
+            <button class="head-but2">Create Event</button>
+        </div>
+        <div class="head-pic">
+            <img src="./assets/Students.jpg" alt="students">
+        </div>
+    </div>
+
+    <div class="search-event">
+        <input type="text" class="search" id="search" placeholder="Search events...">
+        <select name="events" class="event-selection" id="events">
+            <option value="all">All Categories</option>
+            <option value="registered">Registered Events</option>
+            <option value="upcoming">Upcoming Events</option>
+            <option value="past">Past Events</option>
+        </select>
+    </div>
+
+    <div id="events" class="events">
+        <p class="event-title">Featured Events</p>
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/event1.jpg" class="card-img" alt="event1 img">
+                <div class="card-body">
+                    <div class="card-details">
+                        <p class="card-title">IEEE Exhibition 2025 </p>
+                        <p class="card-text">Vardhaman College Of Engineering is going to conduct IEEE event which is
+                            one of the biggest exhibition... </p>
+                    </div>
+                    <div class="details">
+                        <div class="date">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Apr 15, 2025</p>
+                        </div>
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="./assets/event2.jpg" class="card-img" alt="event1 img">
+                <div class="card-body">
+                    <div class="card-details">
+                        <p class="card-title">Varadhi 2025</p>
+                        <p class="card-text">Civil Department at Vardhaman College Of Engineering is going to conduct a
+                            event called Varadhi..Which is one of the best event to explore Civil Department...</p>
+                    </div>
+                    <div class="details">
+                        <div class="date">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Aug 23, 2025</p>
+                        </div>
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/event3.jpg" class="card-img" alt="event1 img">
+                <div class="card-body">
+                    <div class="card-details">
+                        <p class="card-title">Ortus 2025</p>
+                        <p class="card-text">Vardhaman College Of Engineering is going to make annual event. Which is
+                            going to be happen for 2 days...</p>
+                    </div>
+                    <div class="details">
+                        <div class="date">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Mar 15, 2025</p>
+                        </div>
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/event4.jpg" class="card-img" alt="event1 img">
+                <div class="card-body">
+                    <div class="card-details">
+                        <p class="card-title">Festronix 2025</p>
+                        <p class="card-text">Vardhaman College Of Engineering Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. </p>
+                    </div>
+                    <div class="details">
+                        <div class="date">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Dec 22, 2025</p>
+                        </div>
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="features" class="needs">
+        <p class="need-title">Everything You Need for Manage Events</p>
+        <div class="guide-cards">
+            <div class="sub-cards">
+                <i class="fa-solid fa-file"></i>
+                <p class="card-title">Quick Registration</p>
+                <p class="card-text">Quick and easy registration...</p>
+            </div>
+
+            <div class="sub-cards">
+                <i class="fa-solid fa-bell"></i>
+                <p class="card-title">Smart Notifications</p>
+                <p class="card-text">Stay updated with event reminders and changes...</p>
+            </div>
+
+            <div class="sub-cards">
+                <i class="fa-solid fa-share-nodes"></i>
+                <p class="card-title">Social Sharing</p>
+                <p class="card-text">Show events across social platforms...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="about" class="formality">
+        <div class="desc">
+            <p class="desc-title">Engineering Events Hub</p>
+            <p class="desc-info">Making college life more engaging and connected through events</p>
+        </div>
+
+        <div class="desc">
+            <p class="desc-title">Quick links</p>
+            <p class="desc-info">Browse Events</p>
+            <p class="desc-info">Create Event</p>
+            <p class="desc-info">My Dashboard</p>
+        </div>
+
+        <div class="desc">
+            <p class="desc-title">Resources</p>
+            <p class="desc-info">Help Center</p>
+            <p class="desc-info">Guidelines</p>
+            <p class="desc-info">Privacy Policy</p>
+            <p class="desc-info">Terms of Service</p>
+        </div>
+
+        <div class="desc">
+            <p class="desc-title">Connect With Us</p>
+            <div class="soc">
+                <i class="fa-brands fa-linkedin social"></i>
+                <i class="fa-brands fa-facebook social"></i>
+                <i class="fa-brands fa-twitter social"></i>
+                <i class="fa-brands fa-instagram social"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="desc-info">&copy; 2025 Engineering Events Hub. All rights reserved</p>
+    </div>
+
+</body>
+
+</html>
